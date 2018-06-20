@@ -14,16 +14,16 @@ Exposing few REST end point to control the system, and using external API (fixer
 
 3. Open http://localhost:8080/swagger-ui.html to see the available REST endpoint.
 
-Need to configure MYSQL db with name=dlocaldb , username=root, password=dlocal
-   please see DB configuration in application.properties
+Need to configure MYSQL db with name=dlocaldb , username=root, password=dlocal.
+please see DB configuration in application.properties
 
 **Entities:**
 
 There are two main entities which the system consist of:
 
-Merchant -Simple entity representing Merchant in the system.
+**Merchant** -Simple entity representing Merchant in the system.
 
-Sale - Represent a sale/transaction in the system.
+**Sale** - Represent a sale/transaction in the system.
 	   each Sale consist of Merchant id,Transaction id and amount.
 	   in addition, date and Unique Id is attache to the Sale schema.
 
@@ -33,7 +33,6 @@ Each one of the above entities represented by MySql table.
 
 
 **REST Api Endpoint:**
-
 The available methods can be view from Swagger Ui Dashboard.
 When the application is Running, go to:
 
